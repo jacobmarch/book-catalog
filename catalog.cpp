@@ -23,7 +23,7 @@ int main() {
     cout << "Author: ";
     cin >> author;
 
-    testBook.setTitle(author);
+    testBook.setAuthor(author);
 
     testBook.setIDNum(1001);
     testBook.setGenre("High Fantasy");

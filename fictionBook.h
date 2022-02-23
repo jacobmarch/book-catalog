@@ -22,6 +22,9 @@ class fictionBook : public book {
             return genre;
         }
         void print(){
+            cout << endl;
+            cout << "Book Details -----------------------------" << endl;
+            cout << endl;
             cout << "Book Title: " << title << endl;
             cout << "Series Name: " << seriesName << endl;
             cout << "This is Book " << seriesNum << " in the series." << endl;
